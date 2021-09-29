@@ -37,6 +37,10 @@ st_crs(clm)
 
 st_crs(cv)
 
+#Aquí comprobaicón logica (Debería dar TRUE)
+
+st_crs(murcia) == st_crs(clm) & st_crs(murcia) == st_crs(cv) 
+
 
 # Todo el mapa junto (separado)
 
