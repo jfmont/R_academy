@@ -1,6 +1,6 @@
 library("tidyverse")
 
-#Creamos Vector
+####Creamos Vector
 
 #1. Hacemos los dígitos
 
@@ -10,9 +10,7 @@ digitos <- seq(10000, 20000, 1)
 
 vector_prueba<- str_glue("Id_control_{digitos}_20xx")
 
-# Extraemos solo los números que nos interesan
-
-                
+#### Extraemos  los números que nos interesan
 
 solo_digitos <- vector_prueba %>% #Cogemos vector de intéres
   
